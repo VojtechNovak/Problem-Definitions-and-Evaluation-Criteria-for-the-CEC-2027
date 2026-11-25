@@ -1,0 +1,984 @@
+{
+ "function": "F5",
+ "group": 2,
+ "name": "Ising spin glass on a Moebius ladder",
+ "n_qubits": 40,
+ "ansatz": {
+  "type": "product",
+  "layers": 0,
+  "dimension": 40
+ },
+ "terms": [
+  {
+   "axis": "Z",
+   "qubits": [
+    0,
+    1
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1,
+    2
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    2,
+    3
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    3,
+    4
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    4,
+    5
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    5,
+    6
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    6,
+    7
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    7,
+    8
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    8,
+    9
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    9,
+    10
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    10,
+    11
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    11,
+    12
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    12,
+    13
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    13,
+    14
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    14,
+    15
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    15,
+    16
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    16,
+    17
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    17,
+    18
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    18,
+    19
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    19,
+    20
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    20,
+    21
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    21,
+    22
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    22,
+    23
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    23,
+    24
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    24,
+    25
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    25,
+    26
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    26,
+    27
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    27,
+    28
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    28,
+    29
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    29,
+    30
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    30,
+    31
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    31,
+    32
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    32,
+    33
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    33,
+    34
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    34,
+    35
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    35,
+    36
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    36,
+    37
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    37,
+    38
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    38,
+    39
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    0,
+    39
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    0,
+    20
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1,
+    21
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    2,
+    22
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    3,
+    23
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    4,
+    24
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    5,
+    25
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    6,
+    26
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    7,
+    27
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    8,
+    28
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    9,
+    29
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    10,
+    30
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    11,
+    31
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    12,
+    32
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    13,
+    33
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    14,
+    34
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    15,
+    35
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    16,
+    36
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    17,
+    37
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    18,
+    38
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    19,
+    39
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    0
+   ],
+   "coeff": 0.07523269015915907,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1
+   ],
+   "coeff": 0.07530100890586067,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    2
+   ],
+   "coeff": -0.04325395478149022,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    3
+   ],
+   "coeff": -0.0583009358919091,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    4
+   ],
+   "coeff": -0.09723615305911473,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    5
+   ],
+   "coeff": -0.10900665925253593,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    6
+   ],
+   "coeff": 0.003002316849141179,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    7
+   ],
+   "coeff": 0.02695005331446354,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    8
+   ],
+   "coeff": 0.012015631113477282,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    9
+   ],
+   "coeff": -0.1688813349199313,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    10
+   ],
+   "coeff": -0.06040590772375384,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    11
+   ],
+   "coeff": 0.09829527582447434,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    12
+   ],
+   "coeff": 0.05784116622862151,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    13
+   ],
+   "coeff": 0.18839387248775158,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    14
+   ],
+   "coeff": -0.006931425522605478,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    15
+   ],
+   "coeff": 0.13884216954084477,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    16
+   ],
+   "coeff": -0.09580319235331891,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    17
+   ],
+   "coeff": 0.1903857351489065,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    18
+   ],
+   "coeff": 0.19763341922840033,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    19
+   ],
+   "coeff": -0.19374562140674714,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    20
+   ],
+   "coeff": 0.07054895139310591,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    21
+   ],
+   "coeff": 0.054325955027506534,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    22
+   ],
+   "coeff": -0.14242451153105878,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    23
+   ],
+   "coeff": -0.12915096850697672,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    24
+   ],
+   "coeff": 0.18955422456234178,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    25
+   ],
+   "coeff": 0.09420486004335776,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    26
+   ],
+   "coeff": -0.12654237752022057,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    27
+   ],
+   "coeff": 0.05011293108645254,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    28
+   ],
+   "coeff": 0.010605628785188032,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    29
+   ],
+   "coeff": 0.11533940113978014,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    30
+   ],
+   "coeff": -0.08506858107315392,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    31
+   ],
+   "coeff": -0.1644839464641323,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    32
+   ],
+   "coeff": -0.038096336518837814,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    33
+   ],
+   "coeff": 0.11707655763348912,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    34
+   ],
+   "coeff": 0.14886163632513422,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    35
+   ],
+   "coeff": -0.04700417261227047,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    36
+   ],
+   "coeff": 0.005802884327353708,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    37
+   ],
+   "coeff": -0.10349691300544027,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    38
+   ],
+   "coeff": -0.08908050518456206,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    39
+   ],
+   "coeff": -0.10325380995297438,
+   "component": "h"
+  }
+ ],
+ "provenance": {
+  "instance_seed": 7887176,
+  "selection_seed": 1234,
+  "selection": "max one-flip minima among 50 candidates",
+  "fingerprint": "f90ad1fd23cae8a65a86418450915e1fcbae35c3a5dfa253f72a70f23b51778e",
+  "generator": "Moebius-ladder spin-glass generator"
+ },
+ "periodic": [
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true
+ ],
+ "shift": [
+  3.0090741018157834,
+  -3.1071644125064624,
+  -1.5023748588275085,
+  -3.1106009726869672,
+  2.173424042705858,
+  -2.938498635252021,
+  -1.8819472093292473,
+  2.447497016247243,
+  -1.358166788581695,
+  2.409299571834141,
+  -0.5957520673456433,
+  1.3593868871673749,
+  0.7959477226078469,
+  -0.6406120365050159,
+  -1.4979160218317025,
+  1.590457367768229,
+  1.3786558012057242,
+  2.7868836440311577,
+  -1.0329840318083807,
+  -2.070029550127326,
+  -1.652752775708623,
+  1.0217553549441325,
+  -1.5833408487118685,
+  0.9230523976456269,
+  -2.6509056168105514,
+  2.3041348888496476,
+  2.7102734479579507,
+  2.954734033590605,
+  -2.4356637019370804,
+  1.172273107234167,
+  -2.8774265151564684,
+  1.6115255127659474,
+  0.7264806686091201,
+  2.465435685112519,
+  2.8795676595413076,
+  2.4060192809680565,
+  -1.6037268105593507,
+  -1.4426269959622136,
+  1.0089254072192357,
+  1.9556504525479594
+ ],
+ "reference": {
+  "E0": -43.259190548010366,
+  "Emax": 43.24232697699608,
+  "Eref": -43.259190548010366,
+  "Eref_source": "exact",
+  "Eref_exact": true,
+  "spectrum_method": "Moebius-ladder transfer matrix (exact)"
+ },
+ "descriptors": {
+  "n_quench": 64,
+  "K_E": 64,
+  "p_1e-2": 0.03125,
+  "p_1e-4": 0.0,
+  "median_quench_eps": 0.06502559285594786,
+  "kappa_act": null,
+  "R_off_at_best": null,
+  "gRMS_median": 0.8304601173706715,
+  "fdc_spearman_random": -0.03260328450446326,
+  "eps_var": 0.0
+ }
+}

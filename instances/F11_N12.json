@@ -1,0 +1,609 @@
+{
+ "function": "F11",
+ "group": 4,
+ "name": "Transverse-field spin glass block + XY-exchange spin glass block",
+ "n_qubits": 12,
+ "ansatz": {
+  "type": "hea",
+  "layers": 2,
+  "dimension": 36
+ },
+ "terms": [
+  {
+   "axis": "Z",
+   "qubits": [
+    0,
+    1
+   ],
+   "coeff": 1.0,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    0,
+    2
+   ],
+   "coeff": 1.0,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    0,
+    5
+   ],
+   "coeff": -1.0,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1,
+    2
+   ],
+   "coeff": 1.0,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1,
+    4
+   ],
+   "coeff": -1.0,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    2,
+    3
+   ],
+   "coeff": 1.0,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    3,
+    4
+   ],
+   "coeff": -1.0,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    3,
+    5
+   ],
+   "coeff": -1.0,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    4,
+    5
+   ],
+   "coeff": 1.0,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    0
+   ],
+   "coeff": 0.1,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1
+   ],
+   "coeff": 0.1,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    2
+   ],
+   "coeff": 0.1,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    3
+   ],
+   "coeff": 0.1,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    4
+   ],
+   "coeff": 0.1,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    5
+   ],
+   "coeff": -0.1,
+   "component": "A"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    0
+   ],
+   "coeff": -0.3,
+   "component": "A"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    1
+   ],
+   "coeff": -0.3,
+   "component": "A"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    2
+   ],
+   "coeff": -0.3,
+   "component": "A"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    3
+   ],
+   "coeff": -0.3,
+   "component": "A"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    4
+   ],
+   "coeff": -0.3,
+   "component": "A"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    5
+   ],
+   "coeff": -0.3,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    6,
+    7
+   ],
+   "coeff": -1.0,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    6,
+    9
+   ],
+   "coeff": 1.0,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    6,
+    11
+   ],
+   "coeff": -1.0,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    7,
+    8
+   ],
+   "coeff": 1.0,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    7,
+    11
+   ],
+   "coeff": -1.0,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    8,
+    9
+   ],
+   "coeff": -1.0,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    8,
+    10
+   ],
+   "coeff": -1.0,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    9,
+    10
+   ],
+   "coeff": 1.0,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    10,
+    11
+   ],
+   "coeff": -1.0,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    6
+   ],
+   "coeff": -0.1,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    7
+   ],
+   "coeff": 0.1,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    8
+   ],
+   "coeff": 0.1,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    9
+   ],
+   "coeff": 0.1,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    10
+   ],
+   "coeff": 0.1,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    11
+   ],
+   "coeff": 0.1,
+   "component": "B"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    6,
+    7
+   ],
+   "coeff": 0.5,
+   "component": "B"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    6,
+    7
+   ],
+   "coeff": -0.5,
+   "component": "B"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    6,
+    9
+   ],
+   "coeff": 0.5,
+   "component": "B"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    6,
+    9
+   ],
+   "coeff": -0.5,
+   "component": "B"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    6,
+    11
+   ],
+   "coeff": -0.5,
+   "component": "B"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    6,
+    11
+   ],
+   "coeff": 0.5,
+   "component": "B"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    7,
+    8
+   ],
+   "coeff": 0.5,
+   "component": "B"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    7,
+    8
+   ],
+   "coeff": 0.5,
+   "component": "B"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    7,
+    11
+   ],
+   "coeff": -0.5,
+   "component": "B"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    7,
+    11
+   ],
+   "coeff": 0.5,
+   "component": "B"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    8,
+    9
+   ],
+   "coeff": 0.5,
+   "component": "B"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    8,
+    9
+   ],
+   "coeff": -0.5,
+   "component": "B"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    8,
+    10
+   ],
+   "coeff": 0.5,
+   "component": "B"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    8,
+    10
+   ],
+   "coeff": 0.5,
+   "component": "B"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    9,
+    10
+   ],
+   "coeff": 0.5,
+   "component": "B"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    9,
+    10
+   ],
+   "coeff": 0.5,
+   "component": "B"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    10,
+    11
+   ],
+   "coeff": -0.5,
+   "component": "B"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    10,
+    11
+   ],
+   "coeff": -0.5,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    3,
+    8
+   ],
+   "coeff": 0.15,
+   "component": "bridge"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1,
+    9
+   ],
+   "coeff": 0.15,
+   "component": "bridge"
+  }
+ ],
+ "provenance": {
+  "instance_seed": 1171444035,
+  "instance_id": 0,
+  "settings": {
+   "tf_gamma": 0.3,
+   "heis_lambda": 0.5,
+   "field_strength": 0.1,
+   "eta": 0.15,
+   "n_bridges": 2,
+   "diluted3_alpha": 1.5,
+   "block_qaoa_bridge_phase": "half bridge in A generator + half bridge in B generator"
+  },
+  "generator": "coupled-block generator"
+ },
+ "periodic": [
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true
+ ],
+ "shift": [
+  2.545618569683703,
+  2.7887763703218287,
+  0.8177994726781797,
+  -2.226841237253431,
+  0.3638949707823125,
+  -1.1574695789715663,
+  -0.26949285678375245,
+  -3.040459276851874,
+  -0.5719080037545461,
+  -2.3318595823056474,
+  1.8895430046365522,
+  -2.7268671411243344,
+  -1.727001680346901,
+  -0.6271101962826351,
+  0.1030584433676931,
+  2.524961830688998,
+  0.926946316758837,
+  -1.2666870557853462,
+  0.4579705605482931,
+  2.3519635128796343,
+  2.869768838185351,
+  -1.0428712152275885,
+  1.6362652667351325,
+  0.9872655171923395,
+  1.8987819403672592,
+  2.4348826553269216,
+  0.9651643933044811,
+  -0.5135868608786414,
+  0.151389145752165,
+  1.8727095950017958,
+  -2.0437881455829525,
+  1.5791591270953225,
+  0.9045373799569756,
+  2.964499635195522,
+  -0.38239263113942146,
+  2.7551342193194523
+ ],
+ "reference": {
+  "E0": -13.939131123185913,
+  "Emax": 17.380946840542286,
+  "Eref": -13.623988634958266,
+  "Eref_source": "best of screening quenches",
+  "Eref_exact": false,
+  "spectrum_method": "Lanczos (scipy eigsh, tol 1e-12)"
+ },
+ "descriptors": {
+  "n_quench": 32,
+  "K_E": 24,
+  "p_1e-2": 0.28125,
+  "p_1e-4": 0.03125,
+  "median_quench_eps": 0.010649325286112019,
+  "kappa_act": 13720.126249873118,
+  "R_off_at_best": 0.3608737983543641,
+  "gRMS_median": 0.5354144074336227,
+  "fdc_spearman_random": 0.051644398031586165,
+  "eps_var": 0.010061995649966557
+ }
+}

@@ -1,0 +1,286 @@
+{
+ "function": "F12",
+ "group": 4,
+ "name": "2-spin glass block + 3-spin glass block",
+ "n_qubits": 14,
+ "ansatz": {
+  "type": "block_qaoa",
+  "depth": 3,
+  "split": 7,
+  "dimension": 12,
+  "coordinate_order": "per layer gamma_A, beta_A, gamma_B, beta_B; physical beta = coordinate/2",
+  "integer_cost_spectrum": false
+ },
+ "terms": [
+  {
+   "axis": "Z",
+   "qubits": [
+    0,
+    1
+   ],
+   "coeff": -1.0,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    0,
+    6
+   ],
+   "coeff": -1.0,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1,
+    2
+   ],
+   "coeff": -1.0,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1,
+    4
+   ],
+   "coeff": -1.0,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1,
+    5
+   ],
+   "coeff": -1.0,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1,
+    6
+   ],
+   "coeff": 1.0,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    2,
+    3
+   ],
+   "coeff": -1.0,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    3,
+    4
+   ],
+   "coeff": -1.0,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    4,
+    5
+   ],
+   "coeff": -1.0,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    5,
+    6
+   ],
+   "coeff": 1.0,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    10,
+    11,
+    13
+   ],
+   "coeff": 1.0,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    7,
+    9,
+    10
+   ],
+   "coeff": -1.0,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    8,
+    10,
+    11
+   ],
+   "coeff": 1.0,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    7,
+    12,
+    13
+   ],
+   "coeff": -1.0,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    9,
+    10,
+    12
+   ],
+   "coeff": 1.0,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    9,
+    10,
+    13
+   ],
+   "coeff": -1.0,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    8,
+    10,
+    13
+   ],
+   "coeff": -1.0,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    7,
+    8,
+    11
+   ],
+   "coeff": 1.0,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    11,
+    12,
+    13
+   ],
+   "coeff": -1.0,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    9,
+    10,
+    11
+   ],
+   "coeff": -1.0,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    5,
+    10
+   ],
+   "coeff": -0.15,
+   "component": "bridge"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1,
+    13
+   ],
+   "coeff": -0.15,
+   "component": "bridge"
+  }
+ ],
+ "provenance": {
+  "instance_seed": 3350843183,
+  "instance_id": 0,
+  "settings": {
+   "tf_gamma": 0.3,
+   "heis_lambda": 0.5,
+   "field_strength": 0.1,
+   "eta": 0.15,
+   "n_bridges": 2,
+   "diluted3_alpha": 1.5,
+   "block_qaoa_bridge_phase": "half bridge in A generator + half bridge in B generator"
+  },
+  "generator": "coupled-block generator"
+ },
+ "periodic": [
+  false,
+  true,
+  false,
+  true,
+  false,
+  true,
+  false,
+  true,
+  false,
+  true,
+  false,
+  true
+ ],
+ "shift": [
+  0.0,
+  0.39726978342206865,
+  0.0,
+  -2.066228066136211,
+  0.0,
+  -0.7158074715891667,
+  0.0,
+  -1.3156727987641308,
+  0.0,
+  2.362708273630669,
+  0.0,
+  -1.2662298375318153
+ ],
+ "reference": {
+  "E0": -16.299999999999997,
+  "Emax": 16.299999999999997,
+  "Eref": -10.643352908108973,
+  "Eref_source": "best of screening quenches",
+  "Eref_exact": false,
+  "spectrum_method": "diagonal enumeration (exact)"
+ },
+ "descriptors": {
+  "n_quench": 64,
+  "K_E": 64,
+  "p_1e-2": 0.015625,
+  "p_1e-4": 0.015625,
+  "median_quench_eps": 0.06368610368257084,
+  "kappa_act": 124.60080279279335,
+  "R_off_at_best": 0.36471959359470163,
+  "gRMS_median": 2.3582942389644543,
+  "fdc_spearman_random": -0.063773889906157,
+  "eps_var": 0.1735167819598474
+ }
+}

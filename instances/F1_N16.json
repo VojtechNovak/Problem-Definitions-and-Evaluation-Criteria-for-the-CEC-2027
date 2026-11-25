@@ -1,0 +1,203 @@
+{
+ "function": "F1",
+ "group": 1,
+ "name": "Longitudinal fields",
+ "n_qubits": 16,
+ "ansatz": {
+  "type": "product",
+  "layers": 0,
+  "dimension": 16
+ },
+ "terms": [
+  {
+   "axis": "Z",
+   "qubits": [
+    0
+   ],
+   "coeff": 0.11560865611944365,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1
+   ],
+   "coeff": 0.018658452208530185,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    2
+   ],
+   "coeff": 0.11599073862898068,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    3
+   ],
+   "coeff": 0.1456692848791747,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    4
+   ],
+   "coeff": 0.008405800218762,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    5
+   ],
+   "coeff": -0.1945405371840269,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    6
+   ],
+   "coeff": -0.07679242838627065,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    7
+   ],
+   "coeff": -0.19221387505775153,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    8
+   ],
+   "coeff": -0.10701835717325198,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    9
+   ],
+   "coeff": -0.07440554236038183,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    10
+   ],
+   "coeff": -0.059460806745434885,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    11
+   ],
+   "coeff": 0.06540915185027324,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    12
+   ],
+   "coeff": 0.12439245221620654,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    13
+   ],
+   "coeff": 0.026707109485030578,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    14
+   ],
+   "coeff": 0.05433048543970859,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    15
+   ],
+   "coeff": -0.12008319438327995,
+   "component": "h"
+  }
+ ],
+ "provenance": {
+  "master_entropy": 20261029,
+  "protocol_version": 2,
+  "disorder_index": 3,
+  "generator": "Moebius-ladder spin-glass generator"
+ },
+ "periodic": [
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true
+ ],
+ "shift": [
+  -2.3204422678418695,
+  1.3039605681989501,
+  0.786029046177386,
+  -2.2760134814614035,
+  -1.3391364452812762,
+  1.6749300106359737,
+  -0.9130289404350291,
+  -0.4557009917650259,
+  2.6470898483595304,
+  2.430997261642906,
+  0.8976120947018442,
+  1.2538441198744383,
+  -0.07350756508112388,
+  0.664439354364077,
+  -2.1893289669177562,
+  2.1512780577173967
+ ],
+ "reference": {
+  "E0": -1.499686872336508,
+  "Emax": 1.499686872336508,
+  "Eref": -1.499686872336508,
+  "Eref_source": "exact",
+  "Eref_exact": true,
+  "spectrum_method": "diagonal enumeration (exact)"
+ },
+ "descriptors": {
+  "n_quench": 48,
+  "K_E": 1,
+  "p_1e-2": 1.0,
+  "p_1e-4": 1.0,
+  "median_quench_eps": 5.182122558869922e-16,
+  "kappa_act": 23.143582062753328,
+  "R_off_at_best": 1.2560457578356147e-07,
+  "gRMS_median": 0.07332517161239238,
+  "fdc_spearman_random": 0.834405041199359,
+  "eps_var": 0.0
+ }
+}

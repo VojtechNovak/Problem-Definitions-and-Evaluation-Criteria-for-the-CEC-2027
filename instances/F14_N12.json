@@ -1,0 +1,817 @@
+{
+ "function": "F14",
+ "group": 5,
+ "name": "Transverse-field spin glass with random XY exchange",
+ "n_qubits": 12,
+ "ansatz": {
+  "type": "hea",
+  "layers": 3,
+  "dimension": 48
+ },
+ "terms": [
+  {
+   "axis": "Z",
+   "qubits": [
+    0,
+    1
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1,
+    2
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    2,
+    3
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    3,
+    4
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    4,
+    5
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    5,
+    6
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    6,
+    7
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    7,
+    8
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    8,
+    9
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    9,
+    10
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    10,
+    11
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    0,
+    11
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    0,
+    6
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1,
+    7
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    2,
+    8
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    3,
+    9
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    4,
+    10
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    5,
+    11
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    0
+   ],
+   "coeff": -0.1317617067747225,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1
+   ],
+   "coeff": 0.17292905939987935,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    2
+   ],
+   "coeff": 0.054708308973316355,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    3
+   ],
+   "coeff": 0.19040247407798044,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    4
+   ],
+   "coeff": 0.19616756129614404,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    5
+   ],
+   "coeff": -0.18007625297346436,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    6
+   ],
+   "coeff": 0.053669710871302234,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    7
+   ],
+   "coeff": 0.011141908002958278,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    8
+   ],
+   "coeff": 0.16169491034926436,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    9
+   ],
+   "coeff": -0.1383683211174882,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    10
+   ],
+   "coeff": 0.19117749497286823,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    11
+   ],
+   "coeff": -0.1427028828337467,
+   "component": "h"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    0
+   ],
+   "coeff": -0.3,
+   "component": "Gamma"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    1
+   ],
+   "coeff": -0.3,
+   "component": "Gamma"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    2
+   ],
+   "coeff": -0.3,
+   "component": "Gamma"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    3
+   ],
+   "coeff": -0.3,
+   "component": "Gamma"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    4
+   ],
+   "coeff": -0.3,
+   "component": "Gamma"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    5
+   ],
+   "coeff": -0.3,
+   "component": "Gamma"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    6
+   ],
+   "coeff": -0.3,
+   "component": "Gamma"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    7
+   ],
+   "coeff": -0.3,
+   "component": "Gamma"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    8
+   ],
+   "coeff": -0.3,
+   "component": "Gamma"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    9
+   ],
+   "coeff": -0.3,
+   "component": "Gamma"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    10
+   ],
+   "coeff": -0.3,
+   "component": "Gamma"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    11
+   ],
+   "coeff": -0.3,
+   "component": "Gamma"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    0,
+    1
+   ],
+   "coeff": 0.5,
+   "component": "Jx"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    1,
+    2
+   ],
+   "coeff": -0.5,
+   "component": "Jx"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    2,
+    3
+   ],
+   "coeff": -0.5,
+   "component": "Jx"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    3,
+    4
+   ],
+   "coeff": -0.5,
+   "component": "Jx"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    4,
+    5
+   ],
+   "coeff": -0.5,
+   "component": "Jx"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    5,
+    6
+   ],
+   "coeff": 0.5,
+   "component": "Jx"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    6,
+    7
+   ],
+   "coeff": -0.5,
+   "component": "Jx"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    7,
+    8
+   ],
+   "coeff": 0.5,
+   "component": "Jx"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    8,
+    9
+   ],
+   "coeff": -0.5,
+   "component": "Jx"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    9,
+    10
+   ],
+   "coeff": -0.5,
+   "component": "Jx"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    10,
+    11
+   ],
+   "coeff": 0.5,
+   "component": "Jx"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    0,
+    11
+   ],
+   "coeff": 0.5,
+   "component": "Jx"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    0,
+    6
+   ],
+   "coeff": 0.5,
+   "component": "Jx"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    1,
+    7
+   ],
+   "coeff": -0.5,
+   "component": "Jx"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    2,
+    8
+   ],
+   "coeff": -0.5,
+   "component": "Jx"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    3,
+    9
+   ],
+   "coeff": 0.5,
+   "component": "Jx"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    4,
+    10
+   ],
+   "coeff": -0.5,
+   "component": "Jx"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    5,
+    11
+   ],
+   "coeff": -0.5,
+   "component": "Jx"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    0,
+    1
+   ],
+   "coeff": -0.5,
+   "component": "Jy"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    1,
+    2
+   ],
+   "coeff": -0.5,
+   "component": "Jy"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    2,
+    3
+   ],
+   "coeff": -0.5,
+   "component": "Jy"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    3,
+    4
+   ],
+   "coeff": 0.5,
+   "component": "Jy"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    4,
+    5
+   ],
+   "coeff": 0.5,
+   "component": "Jy"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    5,
+    6
+   ],
+   "coeff": 0.5,
+   "component": "Jy"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    6,
+    7
+   ],
+   "coeff": 0.5,
+   "component": "Jy"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    7,
+    8
+   ],
+   "coeff": -0.5,
+   "component": "Jy"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    8,
+    9
+   ],
+   "coeff": -0.5,
+   "component": "Jy"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    9,
+    10
+   ],
+   "coeff": -0.5,
+   "component": "Jy"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    10,
+    11
+   ],
+   "coeff": 0.5,
+   "component": "Jy"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    0,
+    11
+   ],
+   "coeff": -0.5,
+   "component": "Jy"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    0,
+    6
+   ],
+   "coeff": 0.5,
+   "component": "Jy"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    1,
+    7
+   ],
+   "coeff": 0.5,
+   "component": "Jy"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    2,
+    8
+   ],
+   "coeff": 0.5,
+   "component": "Jy"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    3,
+    9
+   ],
+   "coeff": -0.5,
+   "component": "Jy"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    4,
+    10
+   ],
+   "coeff": -0.5,
+   "component": "Jy"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    5,
+    11
+   ],
+   "coeff": -0.5,
+   "component": "Jy"
+  }
+ ],
+ "provenance": {
+  "master_entropy": 20261029,
+  "protocol_version": 2,
+  "disorder_index": 3,
+  "generator": "Moebius-ladder spin-glass generator"
+ },
+ "periodic": [
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true
+ ],
+ "shift": [
+  -0.46579973016136034,
+  -2.8164806686130985,
+  0.5539940830989969,
+  -0.8153898576264393,
+  1.5135730028849368,
+  -2.7825120890276516,
+  -2.966210004212798,
+  0.2519792188679131,
+  -1.6907338299566288,
+  0.7904818858420852,
+  -0.24121683235508007,
+  -1.648740297077914,
+  0.6941356796282827,
+  -2.4612952179206475,
+  1.6510438697474354,
+  0.7657117389350137,
+  -1.2657353154444069,
+  -3.034735584371887,
+  2.199969128029741,
+  1.9015690773061342,
+  -1.1246689632621485,
+  -0.782822411223282,
+  -1.545482560719753,
+  -1.469762771983648,
+  -1.722387482871447,
+  1.7029620408688713,
+  -0.17028073363769325,
+  2.191203021235083,
+  -1.7574451020088142,
+  2.8350571825632658,
+  -0.6982887537942646,
+  0.9396281423014967,
+  2.961085187435068,
+  -0.2917157990877479,
+  0.5831437713840621,
+  2.4893172731080186,
+  -2.416893798733703,
+  -0.9370493638674011,
+  -1.602717590276912,
+  0.24441903739943616,
+  -2.4430972733113343,
+  3.1317744690495033,
+  -2.828683304202972,
+  0.8928469382962163,
+  1.2812552119063945,
+  3.067992923998358,
+  -1.5078378398021728,
+  -1.7058025047648295
+ ],
+ "reference": {
+  "E0": -16.58404545389795,
+  "Emax": 16.308353319338558,
+  "Eref": -16.260717391411642,
+  "Eref_source": "best of screening quenches",
+  "Eref_exact": false,
+  "spectrum_method": "Lanczos (scipy eigsh, tol 1e-12)"
+ },
+ "descriptors": {
+  "n_quench": 32,
+  "K_E": 31,
+  "p_1e-2": 0.9375,
+  "p_1e-4": 0.0625,
+  "median_quench_eps": 0.006206718877457395,
+  "kappa_act": 83652.54364129214,
+  "R_off_at_best": 0.4945849036526343,
+  "gRMS_median": 0.4401656338989731,
+  "fdc_spearman_random": 0.04553530556191348,
+  "eps_var": 0.009829871780266432
+ }
+}

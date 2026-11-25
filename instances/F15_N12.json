@@ -1,0 +1,316 @@
+{
+ "function": "F15",
+ "group": 5,
+ "name": "Ising spin glass on a random 3-regular graph",
+ "n_qubits": 12,
+ "ansatz": {
+  "type": "qaoa",
+  "depth": 3,
+  "tied_repeats": 6,
+  "dimension": 6,
+  "coordinate_order": "gamma_1, beta_1, ..., gamma_p, beta_p; physical beta = coordinate/2",
+  "integer_cost_spectrum": false
+ },
+ "terms": [
+  {
+   "axis": "Z",
+   "qubits": [
+    0,
+    3
+   ],
+   "coeff": -1.0,
+   "component": "ZZ"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    0,
+    6
+   ],
+   "coeff": -1.0,
+   "component": "ZZ"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    0,
+    11
+   ],
+   "coeff": 1.0,
+   "component": "ZZ"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1,
+    4
+   ],
+   "coeff": -1.0,
+   "component": "ZZ"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1,
+    8
+   ],
+   "coeff": -1.0,
+   "component": "ZZ"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1,
+    10
+   ],
+   "coeff": 1.0,
+   "component": "ZZ"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    2,
+    7
+   ],
+   "coeff": -1.0,
+   "component": "ZZ"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    2,
+    8
+   ],
+   "coeff": -1.0,
+   "component": "ZZ"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    2,
+    10
+   ],
+   "coeff": 1.0,
+   "component": "ZZ"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    3,
+    5
+   ],
+   "coeff": -1.0,
+   "component": "ZZ"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    3,
+    9
+   ],
+   "coeff": 1.0,
+   "component": "ZZ"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    4,
+    5
+   ],
+   "coeff": 1.0,
+   "component": "ZZ"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    4,
+    7
+   ],
+   "coeff": 1.0,
+   "component": "ZZ"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    5,
+    10
+   ],
+   "coeff": -1.0,
+   "component": "ZZ"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    6,
+    9
+   ],
+   "coeff": -1.0,
+   "component": "ZZ"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    6,
+    11
+   ],
+   "coeff": -1.0,
+   "component": "ZZ"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    7,
+    9
+   ],
+   "coeff": -1.0,
+   "component": "ZZ"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    8,
+    11
+   ],
+   "coeff": 1.0,
+   "component": "ZZ"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    0
+   ],
+   "coeff": 0.013637568386835941,
+   "component": "field"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1
+   ],
+   "coeff": -0.07087137856765133,
+   "component": "field"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    2
+   ],
+   "coeff": -0.14516828612642008,
+   "component": "field"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    3
+   ],
+   "coeff": 0.033610815753176565,
+   "component": "field"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    4
+   ],
+   "coeff": 0.13561245404066508,
+   "component": "field"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    5
+   ],
+   "coeff": -0.1746373300326067,
+   "component": "field"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    6
+   ],
+   "coeff": 0.14023328953156838,
+   "component": "field"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    7
+   ],
+   "coeff": 0.020101016338111594,
+   "component": "field"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    8
+   ],
+   "coeff": -0.13898316253651244,
+   "component": "field"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    9
+   ],
+   "coeff": 0.1455436898433588,
+   "component": "field"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    10
+   ],
+   "coeff": 0.013182414373078322,
+   "component": "field"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    11
+   ],
+   "coeff": 0.06711500675600468,
+   "component": "field"
+  }
+ ],
+ "provenance": {
+  "analysis_seed": 20260912,
+  "instance_seed": 4009793919,
+  "selection": "none (unselected random 3-regular +/-J glass, h ~ U[-0.2,0.2])",
+  "generator": "random 3-regular spin-glass generator"
+ },
+ "periodic": [
+  false,
+  true,
+  false,
+  true,
+  false,
+  true
+ ],
+ "shift": [
+  0.0,
+  1.7422696597282972,
+  0.0,
+  -2.736409392941314,
+  0.0,
+  0.23514333461006975
+ ],
+ "reference": {
+  "E0": -12.478196844139447,
+  "Emax": 16.19368499185461,
+  "Eref": -10.205261440167224,
+  "Eref_source": "best of screening quenches",
+  "Eref_exact": false,
+  "spectrum_method": "diagonal enumeration (exact)"
+ },
+ "descriptors": {
+  "n_quench": 64,
+  "K_E": 64,
+  "p_1e-2": 0.03125,
+  "p_1e-4": 0.015625,
+  "median_quench_eps": 0.1394464507453368,
+  "kappa_act": 118.87969407999944,
+  "R_off_at_best": 0.31900832934677936,
+  "gRMS_median": 1.4051301678031767,
+  "fdc_spearman_random": 0.08930104142824444,
+  "eps_var": 0.07927402243681227
+ }
+}

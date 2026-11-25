@@ -1,0 +1,608 @@
+{
+ "function": "F5",
+ "group": 2,
+ "name": "Ising spin glass on a Moebius ladder",
+ "n_qubits": 24,
+ "ansatz": {
+  "type": "product",
+  "layers": 0,
+  "dimension": 24
+ },
+ "terms": [
+  {
+   "axis": "Z",
+   "qubits": [
+    0,
+    1
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1,
+    2
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    2,
+    3
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    3,
+    4
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    4,
+    5
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    5,
+    6
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    6,
+    7
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    7,
+    8
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    8,
+    9
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    9,
+    10
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    10,
+    11
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    11,
+    12
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    12,
+    13
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    13,
+    14
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    14,
+    15
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    15,
+    16
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    16,
+    17
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    17,
+    18
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    18,
+    19
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    19,
+    20
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    20,
+    21
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    21,
+    22
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    22,
+    23
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    0,
+    23
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    0,
+    12
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1,
+    13
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    2,
+    14
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    3,
+    15
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    4,
+    16
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    5,
+    17
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    6,
+    18
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    7,
+    19
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    8,
+    20
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    9,
+    21
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    10,
+    22
+   ],
+   "coeff": 1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    11,
+    23
+   ],
+   "coeff": -1.0,
+   "component": "Jz"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    0
+   ],
+   "coeff": -0.015724328266736448,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1
+   ],
+   "coeff": 0.13523558581682393,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    2
+   ],
+   "coeff": -0.0024190888297166424,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    3
+   ],
+   "coeff": 0.17063297052359971,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    4
+   ],
+   "coeff": -0.03303130866665488,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    5
+   ],
+   "coeff": 0.07231833816144317,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    6
+   ],
+   "coeff": -0.045874013548131864,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    7
+   ],
+   "coeff": 0.07557845124294393,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    8
+   ],
+   "coeff": -0.0021264428951905945,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    9
+   ],
+   "coeff": 0.11469664629975956,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    10
+   ],
+   "coeff": -0.017726672523837778,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    11
+   ],
+   "coeff": -0.14205618958941604,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    12
+   ],
+   "coeff": 0.151093054234349,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    13
+   ],
+   "coeff": -0.04353594896243923,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    14
+   ],
+   "coeff": 0.015159260134492175,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    15
+   ],
+   "coeff": 0.022594233166624816,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    16
+   ],
+   "coeff": 0.16535361485521732,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    17
+   ],
+   "coeff": 0.1638201456258147,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    18
+   ],
+   "coeff": -0.09675699939080956,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    19
+   ],
+   "coeff": -0.010898216745786005,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    20
+   ],
+   "coeff": 0.03334739450146426,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    21
+   ],
+   "coeff": -0.04656261114359447,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    22
+   ],
+   "coeff": -0.05594788636297052,
+   "component": "h"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    23
+   ],
+   "coeff": 0.01569954792627773,
+   "component": "h"
+  }
+ ],
+ "provenance": {
+  "instance_seed": 5556163,
+  "selection_seed": 1234,
+  "selection": "max one-flip minima among 50 candidates",
+  "fingerprint": "792d2a53a94b815328736fa7fccb012e376137afc9d036f47b2896bbd40d672c",
+  "generator": "Moebius-ladder spin-glass generator"
+ },
+ "periodic": [
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true
+ ],
+ "shift": [
+  2.9166701514519646,
+  3.074692852359391,
+  -2.836182991624254,
+  1.9781292863946245,
+  -0.40943919111827975,
+  -2.897710886613374,
+  -1.9020719231361856,
+  -0.5740489793522641,
+  0.8877764926002483,
+  -1.7523518042756419,
+  -3.096048644741682,
+  2.7237324958533193,
+  1.4108045264887297,
+  -2.032822701106472,
+  2.928399907135227,
+  1.5361698560920445,
+  -1.9713062477888987,
+  2.2619561771925456,
+  0.03024947255699173,
+  3.0855942171894855,
+  -2.0139368883588555,
+  -2.2318516048063515,
+  1.3819447423068087,
+  -1.0395266578153608
+ ],
+ "reference": {
+  "E0": -24.419283789994637,
+  "Emax": 24.5145584125254,
+  "Eref": -24.419283789994637,
+  "Eref_source": "exact",
+  "Eref_exact": true,
+  "spectrum_method": "Moebius-ladder transfer matrix (exact)"
+ },
+ "descriptors": {
+  "n_quench": 64,
+  "K_E": 61,
+  "p_1e-2": 0.03125,
+  "p_1e-4": 0.0,
+  "median_quench_eps": 0.06093665052312017,
+  "kappa_act": null,
+  "R_off_at_best": null,
+  "gRMS_median": 0.8707924794452155,
+  "fdc_spearman_random": 0.10714765964751659,
+  "eps_var": 0.0
+ }
+}

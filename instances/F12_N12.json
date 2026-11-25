@@ -1,0 +1,267 @@
+{
+ "function": "F12",
+ "group": 4,
+ "name": "2-spin glass block + 3-spin glass block",
+ "n_qubits": 12,
+ "ansatz": {
+  "type": "block_qaoa",
+  "depth": 3,
+  "split": 6,
+  "dimension": 12,
+  "coordinate_order": "per layer gamma_A, beta_A, gamma_B, beta_B; physical beta = coordinate/2",
+  "integer_cost_spectrum": false
+ },
+ "terms": [
+  {
+   "axis": "Z",
+   "qubits": [
+    0,
+    1
+   ],
+   "coeff": 1.0,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    0,
+    5
+   ],
+   "coeff": -1.0,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1,
+    2
+   ],
+   "coeff": 1.0,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1,
+    5
+   ],
+   "coeff": -1.0,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    2,
+    3
+   ],
+   "coeff": 1.0,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    2,
+    4
+   ],
+   "coeff": -1.0,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    2,
+    5
+   ],
+   "coeff": 1.0,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    3,
+    4
+   ],
+   "coeff": 1.0,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    4,
+    5
+   ],
+   "coeff": 1.0,
+   "component": "A"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    6,
+    10,
+    11
+   ],
+   "coeff": 1.0,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    9,
+    10,
+    11
+   ],
+   "coeff": 1.0,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    7,
+    10,
+    11
+   ],
+   "coeff": 1.0,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    7,
+    9,
+    10
+   ],
+   "coeff": 1.0,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    6,
+    7,
+    9
+   ],
+   "coeff": 1.0,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    7,
+    9,
+    11
+   ],
+   "coeff": -1.0,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    7,
+    8,
+    11
+   ],
+   "coeff": 1.0,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    6,
+    7,
+    8
+   ],
+   "coeff": -1.0,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    6,
+    7,
+    11
+   ],
+   "coeff": -1.0,
+   "component": "B"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    5,
+    10
+   ],
+   "coeff": -0.15,
+   "component": "bridge"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    4,
+    10
+   ],
+   "coeff": -0.15,
+   "component": "bridge"
+  }
+ ],
+ "provenance": {
+  "instance_seed": 3275686881,
+  "instance_id": 0,
+  "settings": {
+   "tf_gamma": 0.3,
+   "heis_lambda": 0.5,
+   "field_strength": 0.1,
+   "eta": 0.15,
+   "n_bridges": 2,
+   "diluted3_alpha": 1.5,
+   "block_qaoa_bridge_phase": "half bridge in A generator + half bridge in B generator"
+  },
+  "generator": "coupled-block generator"
+ },
+ "periodic": [
+  false,
+  true,
+  false,
+  true,
+  false,
+  true,
+  false,
+  true,
+  false,
+  true,
+  false,
+  true
+ ],
+ "shift": [
+  0.0,
+  1.5863432903960728,
+  0.0,
+  2.992321835031462,
+  0.0,
+  -0.4547381897565721,
+  0.0,
+  -0.1967464150478273,
+  0.0,
+  2.324109596898631,
+  0.0,
+  0.5259439337253027
+ ],
+ "reference": {
+  "E0": -14.0,
+  "Emax": 12.3,
+  "Eref": -10.39879470356993,
+  "Eref_source": "best of screening quenches",
+  "Eref_exact": false,
+  "spectrum_method": "diagonal enumeration (exact)"
+ },
+ "descriptors": {
+  "n_quench": 64,
+  "K_E": 64,
+  "p_1e-2": 0.046875,
+  "p_1e-4": 0.015625,
+  "median_quench_eps": 0.09304585676092131,
+  "kappa_act": 216.48222027809905,
+  "R_off_at_best": 0.5810341181879211,
+  "gRMS_median": 2.597656422911499,
+  "fdc_spearman_random": -0.03360465781643396,
+  "eps_var": 0.13692795803916616
+ }
+}

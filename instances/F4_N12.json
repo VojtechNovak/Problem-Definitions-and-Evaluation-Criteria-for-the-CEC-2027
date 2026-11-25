@@ -1,0 +1,221 @@
+{
+ "function": "F4",
+ "group": 2,
+ "name": "Max-Cut on a 3-regular graph",
+ "n_qubits": 12,
+ "ansatz": {
+  "type": "qaoa",
+  "depth": 3,
+  "tied_repeats": 1,
+  "dimension": 6,
+  "coordinate_order": "gamma_1, beta_1, ..., gamma_p, beta_p; physical beta = coordinate/2",
+  "integer_cost_spectrum": true
+ },
+ "terms": [
+  {
+   "axis": "Z",
+   "qubits": [
+    0,
+    5
+   ],
+   "coeff": 1.0,
+   "component": "MaxCut"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    0,
+    9
+   ],
+   "coeff": 1.0,
+   "component": "MaxCut"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    0,
+    11
+   ],
+   "coeff": 1.0,
+   "component": "MaxCut"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1,
+    2
+   ],
+   "coeff": 1.0,
+   "component": "MaxCut"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1,
+    6
+   ],
+   "coeff": 1.0,
+   "component": "MaxCut"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1,
+    8
+   ],
+   "coeff": 1.0,
+   "component": "MaxCut"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    2,
+    7
+   ],
+   "coeff": 1.0,
+   "component": "MaxCut"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    2,
+    9
+   ],
+   "coeff": 1.0,
+   "component": "MaxCut"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    3,
+    5
+   ],
+   "coeff": 1.0,
+   "component": "MaxCut"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    3,
+    7
+   ],
+   "coeff": 1.0,
+   "component": "MaxCut"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    3,
+    11
+   ],
+   "coeff": 1.0,
+   "component": "MaxCut"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    4,
+    5
+   ],
+   "coeff": 1.0,
+   "component": "MaxCut"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    4,
+    7
+   ],
+   "coeff": 1.0,
+   "component": "MaxCut"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    4,
+    10
+   ],
+   "coeff": 1.0,
+   "component": "MaxCut"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    6,
+    8
+   ],
+   "coeff": 1.0,
+   "component": "MaxCut"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    6,
+    10
+   ],
+   "coeff": 1.0,
+   "component": "MaxCut"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    8,
+    9
+   ],
+   "coeff": 1.0,
+   "component": "MaxCut"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    10,
+    11
+   ],
+   "coeff": 1.0,
+   "component": "MaxCut"
+  }
+ ],
+ "provenance": {
+  "analysis_seed": 20260906,
+  "instance_id": 2,
+  "instance_seed": 2611055339,
+  "selection": "representative (median ruggedness of 3 candidates)",
+  "generator": "random 3-regular graph generator"
+ },
+ "periodic": [
+  true,
+  true,
+  true,
+  true,
+  true,
+  true
+ ],
+ "shift": [
+  -2.5375376103686804,
+  0.8273637765144004,
+  0.7962555638397371,
+  -1.2909638868313547,
+  -0.8520915080488054,
+  2.387196648003668
+ ],
+ "reference": {
+  "E0": -14.0,
+  "Emax": 18.0,
+  "Eref": -10.656868222863519,
+  "Eref_source": "best of screening quenches",
+  "Eref_exact": false,
+  "spectrum_method": "diagonal enumeration (exact)"
+ },
+ "descriptors": {
+  "n_quench": 64,
+  "K_E": 6,
+  "p_1e-2": 0.15625,
+  "p_1e-4": 0.15625,
+  "median_quench_eps": 0.014266870398949388,
+  "kappa_act": 32.480602786390364,
+  "R_off_at_best": 0.41886898627507174,
+  "gRMS_median": 6.860992939680798,
+  "fdc_spearman_random": -0.011917772945754176,
+  "eps_var": 0.10447286803551503
+ }
+}

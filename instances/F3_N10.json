@@ -1,0 +1,343 @@
+{
+ "function": "F3",
+ "group": 1,
+ "name": "Heisenberg antiferromagnetic chain",
+ "n_qubits": 10,
+ "ansatz": {
+  "type": "hea",
+  "layers": 2,
+  "dimension": 30
+ },
+ "terms": [
+  {
+   "axis": "X",
+   "qubits": [
+    0,
+    1
+   ],
+   "coeff": 1.0,
+   "component": "Heis_XX"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    0,
+    1
+   ],
+   "coeff": 1.0,
+   "component": "Heis_YY"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    0,
+    1
+   ],
+   "coeff": 1.0,
+   "component": "Heis_ZZ"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    1,
+    2
+   ],
+   "coeff": 1.0,
+   "component": "Heis_XX"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    1,
+    2
+   ],
+   "coeff": 1.0,
+   "component": "Heis_YY"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1,
+    2
+   ],
+   "coeff": 1.0,
+   "component": "Heis_ZZ"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    2,
+    3
+   ],
+   "coeff": 1.0,
+   "component": "Heis_XX"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    2,
+    3
+   ],
+   "coeff": 1.0,
+   "component": "Heis_YY"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    2,
+    3
+   ],
+   "coeff": 1.0,
+   "component": "Heis_ZZ"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    3,
+    4
+   ],
+   "coeff": 1.0,
+   "component": "Heis_XX"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    3,
+    4
+   ],
+   "coeff": 1.0,
+   "component": "Heis_YY"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    3,
+    4
+   ],
+   "coeff": 1.0,
+   "component": "Heis_ZZ"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    4,
+    5
+   ],
+   "coeff": 1.0,
+   "component": "Heis_XX"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    4,
+    5
+   ],
+   "coeff": 1.0,
+   "component": "Heis_YY"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    4,
+    5
+   ],
+   "coeff": 1.0,
+   "component": "Heis_ZZ"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    5,
+    6
+   ],
+   "coeff": 1.0,
+   "component": "Heis_XX"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    5,
+    6
+   ],
+   "coeff": 1.0,
+   "component": "Heis_YY"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    5,
+    6
+   ],
+   "coeff": 1.0,
+   "component": "Heis_ZZ"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    6,
+    7
+   ],
+   "coeff": 1.0,
+   "component": "Heis_XX"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    6,
+    7
+   ],
+   "coeff": 1.0,
+   "component": "Heis_YY"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    6,
+    7
+   ],
+   "coeff": 1.0,
+   "component": "Heis_ZZ"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    7,
+    8
+   ],
+   "coeff": 1.0,
+   "component": "Heis_XX"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    7,
+    8
+   ],
+   "coeff": 1.0,
+   "component": "Heis_YY"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    7,
+    8
+   ],
+   "coeff": 1.0,
+   "component": "Heis_ZZ"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    8,
+    9
+   ],
+   "coeff": 1.0,
+   "component": "Heis_XX"
+  },
+  {
+   "axis": "Y",
+   "qubits": [
+    8,
+    9
+   ],
+   "coeff": 1.0,
+   "component": "Heis_YY"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    8,
+    9
+   ],
+   "coeff": 1.0,
+   "component": "Heis_ZZ"
+  }
+ ],
+ "provenance": {
+  "generator": "deterministic (no randomness)"
+ },
+ "periodic": [
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true
+ ],
+ "shift": [
+  0.7961895515626538,
+  0.21295618011370765,
+  2.591841888603608,
+  -0.02406352697982994,
+  1.0323944789708852,
+  -2.426082616123533,
+  -0.5696773562641906,
+  -0.7983239718673643,
+  0.8297725064889399,
+  -1.4373585764583732,
+  1.981607915591658,
+  0.9705998848155053,
+  3.0415808203584476,
+  0.4478258044185104,
+  0.09882989117508068,
+  2.4725136546564723,
+  -2.42469167745067,
+  3.0381481889154998,
+  1.2250964299648412,
+  -2.956941544516351,
+  -0.5798169457232176,
+  -2.8429817234383785,
+  -1.3985480178696625,
+  0.09477914913543772,
+  3.0690124369345035,
+  -0.09614753245244234,
+  1.8751678369636373,
+  2.991585771260314,
+  2.7219877167467175,
+  2.313174651314668
+ ],
+ "reference": {
+  "E0": -17.032140829131524,
+  "Emax": 9.000000000000009,
+  "Eref": -16.139678589938022,
+  "Eref_source": "best of screening quenches",
+  "Eref_exact": false,
+  "spectrum_method": "Lanczos (scipy eigsh, tol 1e-12)"
+ },
+ "descriptors": {
+  "n_quench": 32,
+  "K_E": 2,
+  "p_1e-2": 0.84375,
+  "p_1e-4": 0.84375,
+  "median_quench_eps": 5.936624499775247e-15,
+  "kappa_act": 665.376680104061,
+  "R_off_at_best": 0.4874413571655422,
+  "gRMS_median": 0.6473432948134175,
+  "fdc_spearman_random": 0.06767853055619134,
+  "eps_var": 0.034283090470791526
+ }
+}

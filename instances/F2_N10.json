@@ -1,0 +1,250 @@
+{
+ "function": "F2",
+ "group": 1,
+ "name": "Transverse-field Ising ring",
+ "n_qubits": 10,
+ "ansatz": {
+  "type": "hea",
+  "layers": 1,
+  "dimension": 20
+ },
+ "terms": [
+  {
+   "axis": "Z",
+   "qubits": [
+    0,
+    1
+   ],
+   "coeff": -1.0,
+   "component": "TFIM_ZZ"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    1,
+    2
+   ],
+   "coeff": -1.0,
+   "component": "TFIM_ZZ"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    2,
+    3
+   ],
+   "coeff": -1.0,
+   "component": "TFIM_ZZ"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    3,
+    4
+   ],
+   "coeff": -1.0,
+   "component": "TFIM_ZZ"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    4,
+    5
+   ],
+   "coeff": -1.0,
+   "component": "TFIM_ZZ"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    5,
+    6
+   ],
+   "coeff": -1.0,
+   "component": "TFIM_ZZ"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    6,
+    7
+   ],
+   "coeff": -1.0,
+   "component": "TFIM_ZZ"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    7,
+    8
+   ],
+   "coeff": -1.0,
+   "component": "TFIM_ZZ"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    8,
+    9
+   ],
+   "coeff": -1.0,
+   "component": "TFIM_ZZ"
+  },
+  {
+   "axis": "Z",
+   "qubits": [
+    0,
+    9
+   ],
+   "coeff": -1.0,
+   "component": "TFIM_ZZ"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    0
+   ],
+   "coeff": -1.0,
+   "component": "TFIM_X"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    1
+   ],
+   "coeff": -1.0,
+   "component": "TFIM_X"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    2
+   ],
+   "coeff": -1.0,
+   "component": "TFIM_X"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    3
+   ],
+   "coeff": -1.0,
+   "component": "TFIM_X"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    4
+   ],
+   "coeff": -1.0,
+   "component": "TFIM_X"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    5
+   ],
+   "coeff": -1.0,
+   "component": "TFIM_X"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    6
+   ],
+   "coeff": -1.0,
+   "component": "TFIM_X"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    7
+   ],
+   "coeff": -1.0,
+   "component": "TFIM_X"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    8
+   ],
+   "coeff": -1.0,
+   "component": "TFIM_X"
+  },
+  {
+   "axis": "X",
+   "qubits": [
+    9
+   ],
+   "coeff": -1.0,
+   "component": "TFIM_X"
+  }
+ ],
+ "provenance": {
+  "generator": "deterministic (no randomness)"
+ },
+ "periodic": [
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true,
+  true
+ ],
+ "shift": [
+  -0.9606129250786428,
+  2.75145986770863,
+  -1.1300637951618908,
+  2.472574926262401,
+  -0.47920410946223413,
+  -1.8938490474894054,
+  1.8095256061948417,
+  -0.7543277248569549,
+  -1.2994653423338884,
+  2.1773879818839426,
+  0.9713736454769561,
+  -1.8440755194257126,
+  -0.6147248263320013,
+  0.7267016353653428,
+  2.149953025545602,
+  -2.0387051617345815,
+  -1.5402273602100869,
+  2.0815170544999564,
+  -1.7819004802937024,
+  1.603376084361389
+ ],
+ "reference": {
+  "E0": -12.78490644299933,
+  "Emax": 12.784906442999336,
+  "Eref": -12.646876354584109,
+  "Eref_source": "best of screening quenches",
+  "Eref_exact": false,
+  "spectrum_method": "Lanczos (scipy eigsh, tol 1e-12)"
+ },
+ "descriptors": {
+  "n_quench": 48,
+  "K_E": 1,
+  "p_1e-2": 1.0,
+  "p_1e-4": 1.0,
+  "median_quench_eps": 8.336502956763998e-16,
+  "kappa_act": 277.3734482121869,
+  "R_off_at_best": 0.45211684681650527,
+  "gRMS_median": 0.716627041623186,
+  "fdc_spearman_random": 0.024314774547951473,
+  "eps_var": 0.005398165760172765
+ }
+}
